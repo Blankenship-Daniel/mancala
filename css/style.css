@@ -1,0 +1,72 @@
+html, body {
+    background: #7F8C8D;
+    min-height: 100%;
+}
+
+#gameBoard, #leftBank, #rightBank, .mancalaRow, .slot {
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+
+#gameBoard {
+    background: #BDC3C7;
+    min-height: 500px;
+    margin: 25px;
+    border: 5px solid #D35400;
+    min-width: 1150px;
+    overflow: hidden;
+    padding: 10px;
+}
+
+#leftBank, #rightBank {
+    margin: 10px;
+    width: 140px;
+    min-height: 470px;
+    border: 5px solid #D35400;
+}
+
+#leftBank {
+    float: left;
+}
+
+#rightBank {
+    float: right;
+}
+
+.rock {
+    background: #C0392B;
+}
+
+.rock {
+    float: left;
+    margin: 5px 0 0 5px;
+    width: 25px;
+    height: 25px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+
+.mancalaRow {
+    min-height: 230px;
+    margin: 10px 160px 10px 160px;
+}
+
+.slot, .slotWrapper {
+    min-height: 230px;
+}
+
+.slot {
+    min-width: 105px;
+    border: 1px solid #D35400;
+}
+
+.slotWrapper, .col-md-12 {
+    min-width: 750px;
+}
+
+.col-md-2 {
+    padding-right: 10px;
+    padding-left: 10px;
+}
